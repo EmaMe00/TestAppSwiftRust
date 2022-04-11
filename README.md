@@ -11,5 +11,6 @@ Ho un problema che non riconosce i miei comandi appartenenti al bridge: Undefine
 
 Nella ContentView va messo questo codice: 
 
-  let rustGreetings = RustGreetings()
-  print("\(rustGreetings.sayHello(to: "world"))")
+    let rustGreetings = RustGreetings()
+    
+    print("\(rustGreetings.sayHello(to: "world"))")
